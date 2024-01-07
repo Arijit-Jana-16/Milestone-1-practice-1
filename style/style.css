@@ -5,10 +5,12 @@ body {
 button {
     font-weight: 400px;
 }
-/* header{
-    margin-left: 50px;
-    margin-right: 50px;
-} */
+main{
+    margin: 0 30px;
+}
+hr{
+    padding: 0 30px ;
+}
 .header-background{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
@@ -90,4 +92,11 @@ button {
 
 .header-banner-text{
     padding-left: 100PX ;
+}
+.summery{
+    display: flex;
+    gap: 30px;
+}
+.summery-header{
+    text-align: center;
 }
